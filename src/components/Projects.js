@@ -7,6 +7,26 @@ const Projects = () => {
             <h1 className="text-6xl my-6 text-blue-600">Projects</h1>
             <div className="flex flex-wrap justify-evenly items-center">
                 <div className="max-w-sm rounded overflow-hidden shadow-lg m-2">
+                    <Image src="/spotify.png" alt="" width={320} height={500} />
+                    <div className="px-6 py-4">
+                        <div className="font-bold text-xl mb-2 text-red-400">Spofify App</div>
+                        <a href="https://spotify-songs-app.vercel.app/" target="_blank"
+                            className="text-teal-600 text-base font-semibold hover:text-red-400 cursor-pointer ">
+                            Link
+                        </a>
+                    </div>
+                </div>
+                <div className="max-w-sm rounded overflow-hidden shadow-lg m-2">
+                    <Image src="/chatapp.png" alt="" width={320} height={500} />
+                    <div className="px-6 py-4">
+                        <div className="font-bold text-xl mb-2 text-red-400">Chat App</div>
+                        <a href="https://chit-chat-puqa.onrender.com/" target="_blank"
+                            className="text-teal-600 text-base font-semibold hover:text-red-400 cursor-pointer ">
+                            Link
+                        </a>
+                    </div>
+                </div>
+                <div className="max-w-sm rounded overflow-hidden shadow-lg m-2 ">
                     <Image src="/excel.png" alt="" width={300} height={500} />
                     <div className="px-6 py-4">
                         <div className="font-bold text-xl mb-2 text-red-400">Excel Clone</div>
@@ -36,16 +56,7 @@ const Projects = () => {
                         </a>
                     </div>
                 </div>
-                <div className="max-w-sm rounded overflow-hidden shadow-lg m-2">
-                    <Image src="/movieapp.png" alt="" width={320} height={500} />
-                    <div className="px-6 py-4">
-                        <div className="font-bold text-xl mb-2 text-red-400">Movie App</div>
-                        <a href="https://next-movie-app-smoky.vercel.app/" target="_blank"
-                            className="text-teal-600 text-base font-semibold hover:text-red-400 cursor-pointer ">
-                            Link
-                        </a>
-                    </div>
-                </div>
+
 
             </div>
         </section>
