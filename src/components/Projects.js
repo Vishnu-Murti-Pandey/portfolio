@@ -9,7 +9,7 @@ const Projects = () => {
                 <div className="max-w-sm rounded overflow-hidden shadow-lg m-2">
                     <Image src="/spotify.png" alt="" width={320} height={500} />
                     <div className="px-6 py-4">
-                        <div className="font-bold text-xl mb-2 text-red-400">Spofify App</div>
+                        <div className="font-bold text-xl mb-2 text-red-400">Spofify Music App</div>
                         <a href="https://spotify-songs-app.vercel.app/" target="_blank"
                             className="text-teal-600 text-base font-semibold hover:text-red-400 cursor-pointer ">
                             Link
