@@ -4,9 +4,9 @@ import Image from 'next/image'
 
 const Footer = () => {
     return (
-        <div className='w-full bg-black p-4 flex justify-between items-center text-white'>
+        <div className='w-full bg-black flex justify-between items-center text-white'>
             <div className='p-4 text-xl mx-8'>
-                Made with 💖 by <span className='text-red-400 font-bold'>Vishnu Murti Pandey</span>
+                Made with <span className='text-blue-600 font-bold'>Next JS</span> by - <span className='text-red-400 font-bold'> © Vishnu Murti Pandey</span>
             </div>
             <div className='flex flex-wrap p-4 mx-8'>
                 <Link href='https://in.linkedin.com/in/vishnu-murti-pandey' target='_blank'
