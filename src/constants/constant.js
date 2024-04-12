@@ -6,7 +6,7 @@ export const userInfo = {
         <p>💡 Problem-solving is at the heart of what I do, a fact attested by high ratings on various platforms. I thrive on tackling complex challenges and converting them into elegant solutions. I've honed my coding skills through teamwork and synergy, leveraging collective expertise to create impactful projects.</p>
         <p> 🤝 I'm always eager to connect with fellow professionals, tech enthusiasts, and anyone intrigued by the intersections of technology and creativity. Feel free to reach out if you're interested in technology, coding conundrums, or just having an engaging conversation. Looking forward to connecting! </p>
         `,
-    skills: ['HTML', 'CSS', 'JavaScript', 'React JS', 'Next JS', 'Redux', 'Tailwind CSS', 'Data Structure', 'Java'],
+    skills: ['HTML', 'CSS', 'JavaScript', 'React JS', 'Next JS', 'Redux', 'Tailwind CSS', 'Node Js', 'Express Js'],
 }
 
 export const projects = {
