@@ -6,12 +6,12 @@ const About = () => {
             className="h-screen flex flex-col text-center justify-center items-center md:flex-row md:text-start my-[68rem] md:my-0">
             <div className="m-4 md:ml-20 sm:ml-12 md:w-1/2 rounded-md bg-gradient-to-r from-slate-900 to-blue-950 p-4">
                 <h1 className="text-6xl my-6 font-bold text-white">About</h1>
-                <div className="bg-gradient-to-r from-blue-900 to-slate-900 flex mt-8 items-center rounded-2xl md:h md:min-h-[140px] w-[100%] h-[auto]">
+                <div className="flex mt-8 items-center bg-gradient-to-r from-blue-900 to-slate-900 rounded-2xl md:min-h-[140px] w-[100%] h-[auto]">
                     <Image
                         src="/cursor.png"
                         alt="cursor"
-                        height={75}
-                        width={75}
+                        height={70}
+                        width={70}
                     />
                     <div className="flex flex-col p-6 md:p-1 item-center justify-center">
                         <p className="text-lg font-semibold text-white">
@@ -20,12 +20,12 @@ const About = () => {
                         </p>
                     </div>
                 </div>
-                <div className="bg-gradient-to-r flex mt-8 items-center from-blue-900 rounded-2xl to-slate-900 w-[100%] md:min-h-[120px] h-[auto]">
+                <div className="flex mt-8 items-center bg-gradient-to-r from-blue-900 to-slate-900 rounded-2xl w-[100%] md:min-h-[140px] h-[auto]">
                     <Image
                         src="/exp.png"
                         alt="exp"
-                        height={75}
-                        width={75}
+                        height={70}
+                        width={70}
                     />
                     <div className="flex flex-col item-center p-6 md:p-1 justify-center">
                         <p className="text-lg font-semibold text-white">
@@ -35,7 +35,7 @@ const About = () => {
                     </div>
                 </div>
                 <p className="text-white text-2xl mt-8 mb-2">Experience</p>
-                <div className="bg-gradient-to-r flex items-center from-blue-900 rounded-2xl to-slate-900 w-[100%] md:min-h-[120px] h-[auto]">
+                <div className="flex items-center bg-gradient-to-r from-blue-900 to-slate-900 rounded-2xl w-[100%] md:min-h-[140px] h-[auto]">
                     <Image
                         src="/magic.png"
                         alt="magic"
