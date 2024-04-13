@@ -1,6 +1,5 @@
 'use client'
 import Image from "next/image"
-import { userInfo, projects } from "@/constants/constant"
 import { Link } from "react-scroll"
 
 const Intro = () => {
@@ -17,26 +16,26 @@ const Intro = () => {
                 />
             </div>
             <div className="md:ml-20 sm:ml-12 md:w-1/2">
-                <h1 className="text-7xl uppercase hidden md:block text-blue-600">FrontEnd Engineer</h1>
-                <h1 className="text-2xl mt-5 md:text-3xl">
-                    Hey, I&#39;m <span className="text-red-600 text-3xl md:text-4xl"> Vishnu Murti Pandey</span>
+                <h1 className="text-7xl uppercase hidden md:block text-white font-bold ">FrontEnd Engineer</h1>
+                <h1 className="text-2xl mt-5 md:text-3xl text-white font-semibold">
+                    Hey, I&#39;m <span className="text-red-600 text-3xl md:text-4xl font-semibold"> Vishnu Murti Pandey</span>
                 </h1>
-                <p className="mt-4 mb-4"
-                    dangerouslySetInnerHTML={{ __html: userInfo.heading }}
-                />
-                <div className="flex flex-col md:flex-row items-center">
+                <p className="mt-4 mb-4 text-white font-semibold text-lg">
+                    {`I'm a Frontend Engineer based in India, with a passion for creating elegant and efficient solutions that seamlessly integrate user-friendly experiences. 
+                    I've built websites, and corporate software, leveraging cutting-edge technologies to drive innovation and enhance business processes.`}
+                </p>
+                <div className="flex flex-col md:flex-row items-center ">
                     <Link
                         to="projects"
                         key={"projects"}
-                        className='bg-teal-600 rounded font-semibold text-neutral-100 m-2 flex w-28 h-10 items-center justify-center md:m-0 hover:bg-teal-500 cursor-pointer'
+                        className='bg-[#576CBC] text-lg rounded font-semibold text-neutral-100 m-2 flex w-36 h-12 items-center justify-center md:m-0 hover:underline cursor-pointer'
                         spy={true}
                         smooth={true}
                     >
                         Projects
                     </Link>
-
                     <a href='#'
-                        className='bg-teal-600 w-28 flex justify-center items-center m-2 rounded text-neutral-100 p-2 mx-4 font-semibold hover:bg-teal-500 cursor-pointer'>
+                        className='bg-[#576CBC] text-lg w-36 h-12 flex justify-center items-center m-2 rounded text-neutral-100 p-2 mx-4 font-semibold hover:underline cursor-pointer'>
                         My Resume
                     </a>
                 </div>

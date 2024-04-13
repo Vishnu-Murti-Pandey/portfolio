@@ -5,7 +5,7 @@ import Projects from "@/components/Projects"
 
 const Main = () => {
     return (
-        <div className="md:mx-4">
+        <div className="md:mx-4 ">
             <Intro />
             <About />
             <Projects />

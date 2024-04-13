@@ -8,9 +8,9 @@ const Header = () => {
     const [navItem, setNavItem] = useState(false);
 
     return (
-        <header className="p-6 justify-between fixed top-0 z-10 bg-red-300 w-full md:flex ">
+        <header className="p-6 justify-between fixed top-0 z-10 bg-[#04152D] w-full md:flex ">
             <div className='flex justify-between'>
-                <h2 className="text-2xl font-bold">Vishnu Murti Pandey</h2>
+                <h2 className="text-4xl font-bold text-white">Portfolio</h2>
                 <BiMenu
                     size={30}
                     className='md:hidden'
@@ -21,7 +21,7 @@ const Header = () => {
                 <Link
                     to="home"
                     key={"home"}
-                    className='block md:inline-block cursor-pointer font-semibold p-1 hover:bg-red-600 hover:text-white'
+                    className='block md:inline-block text-lg text-white cursor-pointer font-semibold p-1 hover:bg-red-600 hover:underline'
                     spy={true}
                     smooth={true}
                 >
@@ -30,7 +30,7 @@ const Header = () => {
                 <Link
                     to="about"
                     key={"about"}
-                    className='block md:inline-block cursor-pointer font-semibold p-1 hover:bg-red-600 hover:text-white'
+                    className='block md:inline-block text-lg cursor-pointer text-white font-semibold p-1 hover:bg-red-600 hover:underline'
                     spy={true}
                     smooth={true}
                 >
@@ -39,7 +39,7 @@ const Header = () => {
                 <Link
                     to="projects"
                     key={"projects"}
-                    className='block md:inline-block cursor-pointer font-semibold p-1 hover:bg-red-600 hover:text-white'
+                    className='block md:inline-block text-lg cursor-pointer text-white font-semibold p-1 hover:bg-red-600 hover:underline'
                     spy={true}
                     smooth={true}
                 >
