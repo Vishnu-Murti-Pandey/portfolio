@@ -12,6 +12,7 @@ const About = () => {
                         alt="cursor"
                         height={70}
                         width={70}
+                        className="m-4"
                     />
                     <div className="flex flex-col p-6 md:p-1 item-center justify-center">
                         <p className="text-lg font-semibold text-white">
@@ -26,6 +27,7 @@ const About = () => {
                         alt="exp"
                         height={70}
                         width={70}
+                        className="m-4"
                     />
                     <div className="flex flex-col item-center p-6 md:p-1 justify-center">
                         <p className="text-lg font-semibold text-white">
