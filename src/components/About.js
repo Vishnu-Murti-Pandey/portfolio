@@ -4,9 +4,9 @@ const About = () => {
     return (
         <section id='about'
             className="h-screen flex flex-col text-center justify-center items-center md:flex-row md:text-start my-80 md:my-0">
-            <div className="m-4 md:ml-20 sm:ml-12 md:w-1/2 bg-gradient-to-r from-slate-900 to-blue-950 p-4">
+            <div className="m-4 md:ml-20 sm:ml-12 md:w-1/2 rounded-md bg-gradient-to-r from-slate-900 to-blue-950 p-4">
                 <h1 className="text-6xl my-6 font-bold text-white">About</h1>
-                <div className="bg-gradient-to-r from-blue-900 to-slate-900 flex mt-8 items-center rounded-2xl md:min-h-[120px] w-[100%] h-[auto]">
+                <div className="bg-gradient-to-r from-blue-900 to-slate-900 flex mt-8 items-center rounded-2xl md:h md:min-h-[140px] w-[100%] h-[auto]">
                     <Image
                         src="/cursor.png"
                         alt="cursor"

@@ -8,7 +8,7 @@ const Header = () => {
     const [navItem, setNavItem] = useState(false);
 
     return (
-        <header className="p-6 justify-between fixed top-0 z-10 bg-[#04152D] w-full md:flex ">
+        <header className="p-6 justify-between fixed top-0 z-10 bg-gradient-to-r from-slate-900 to-blue-950 w-full md:flex ">
             <div className='flex justify-between'>
                 <h2 className="text-4xl font-bold text-white">Portfolio</h2>
                 <BiMenu
