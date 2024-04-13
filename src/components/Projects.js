@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const Projects = () => {
     return (
-        <section id='projects' className="flex flex-col text-center justify-center items-center md:my-40 my-80">
+        <section id='projects' className="flex flex-col text-center justify-center items-center md:my-40 my-[10rem]">
             <h1 className="text-6xl my-6 text-white">Projects</h1>
             <div className="flex flex-wrap justify-evenly items-center">
                 <div className="max-w-sm w-[350px] h-[auto] p-4 rounded-lg overflow-hidden m-2 bg-gradient-to-r from-slate-900 to-blue-950">

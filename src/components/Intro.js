@@ -12,7 +12,7 @@ const Intro = () => {
                     alt="profile"
                     height={300}
                     width={300}
-                    className="rounded-full shadow-2xl mt-10"
+                    className="rounded-full shadow-2xl md:mt-[1rem] mt-[15rem]"
                 />
             </div>
             <div className="md:ml-20 sm:ml-12 md:w-1/2">
