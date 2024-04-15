@@ -110,7 +110,7 @@ const Projects = () => {
                                 Javascript
                             </div>
                             <div className="text-white text-sm  p-1 m-1 w-[95px] rounded-full bg-blue-900">
-                                Web API
+                                ExpressJS
                             </div>
                         </div>
                         <div className="flex flex-wrap justify-between items-center">
@@ -146,7 +146,7 @@ const Projects = () => {
                         </div>
                         <div className="flex flex-wrap justify-between items-center">
                             <div className="w-[125px] mt-4 bg-[#576CBC] p-1 rounded-full">
-                                <a href="https://github.com/Vishnu-Murti-Pandey/Sketch-Board" target="_blank"
+                                <a href="https://sketch-board-uuyh.onrender.com/" target="_blank"
                                     className="text-white text-sm cursor-pointer hover:underline">
                                     Demo
                                 </a>
