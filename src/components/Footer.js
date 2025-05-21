@@ -21,9 +21,9 @@ const Footer = () => {
                     className='m-2 bg-white hover:bg-[#b2c1fd] p-6 md:p-2 w-[70px] h-[70px] flex justify-center items-center rounded-full'>
                     <Image src='/medium.png' alt='' height={40} width={40} />
                 </Link>
-                <Link href='https://twitter.com/vm_pandey10' target='_blank'
+                <Link href='https://x.com/vm_pandey10' target='_blank'
                     className='m-2 bg-white hover:bg-[#b2c1fd] p-6 md:p-2 w-[70px] h-[70px] flex justify-center items-center rounded-full'>
-                    <Image src='/twitter.png' alt='' height={40} width={40} />
+                    <Image src='/X.png' alt='' height={30} width={30} />
                 </Link>
                 <Link href='https://www.instagram.com/vm_pandey/?igsh=OGQ5ZDc2ODk2ZA%3D%3D' target='_blank'
                     className='m-2 bg-white hover:bg-[#b2c1fd] p-6 md:p-2 w-[70px] h-[70px] flex justify-center items-center rounded-full'>

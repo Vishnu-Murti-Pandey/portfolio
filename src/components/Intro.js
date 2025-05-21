@@ -34,7 +34,7 @@ const Intro = () => {
                     >
                         Projects
                     </Link>
-                    <a href='https://drive.google.com/file/d/1oa5T6CCvZR9h7QeamntGPf8YdZinUJnd/view?usp=drive_link'
+                    <a href='https://drive.google.com/file/d/1_K0nRu4t_fGwWoXc4LhAR1CRVQiGQUNy/view?usp=drive_link'
                         target="_blank"
                         className='bg-[#576CBC] text-lg w-36 h-12 flex justify-center items-center m-2 rounded text-neutral-100 p-2 mx-4 font-semibold hover:underline cursor-pointer'>
                         My Resume
